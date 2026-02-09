@@ -40,11 +40,11 @@ eksctl create iamserviceaccount \
 * Add the EKS chart repo to Helm
 * first install helm
 
-curl -fsSL https://get.helm.sh/helm-v3.14.4-linux-amd64.tar.gz -o helm.tar.gz
-tar -xzf helm.tar.gz
-linux-amd64/helm
-sudo mv linux-amd64/helm /usr/local/bin/helm
-helm version
+curl -fsSL https://get.helm.sh/helm-v3.14.4-linux-amd64.tar.gz -o helm.tar.gz 
+tar -xzf helm.tar.gz 
+linux-amd64/helm 
+sudo mv linux-amd64/helm /usr/local/bin/helm 
+helm version 
 
 ```
 helm repo add eks https://aws.github.io/eks-charts
